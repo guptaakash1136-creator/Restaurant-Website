@@ -1,0 +1,40 @@
+*{ 
+    margin: 0;
+    padding: 0;
+} 
+
+#d1{
+    height: 20vh;
+    background-color: rgb(228, 101, 101);
+    text-align: center;
+}
+#d2{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(209, 131, 131);
+    display: flex;
+    #a1{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(184, 133, 133);
+        text-align: center;
+    }
+    #a2{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(243, 183, 183);
+        text-align: center;
+    }
+    #a3{
+        width: 20%;
+        height: 100%;
+        background-color: rgb(184, 133, 133);
+        text-align: center;
+    }
+}
+#d3{
+    height: 20vh;
+    background-color: rgb(228, 101, 101);
+    text-align: center;
+}
+

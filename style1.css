@@ -1,0 +1,8 @@
+body{
+   /* background: url("nature.avif") no-repeat center; */
+   /* background: red;
+   background: blue; */
+   /* background: coral; */
+
+   background-image: repeating-linear-gradient(red 10%,yellow 20%);
+}

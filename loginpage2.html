@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 100vh;
+            background-color: rgba(74, 16, 233, 0.6);
+            display: grid;
+            place-items: center; 
+        }
+        .div1{
+            width: 400px;
+            height: 80vh;
+            background-color: rgba(228, 100, 57, 0.7);
+            position: relative;
+            border-radius: 10px;
+        }
+        .par1{
+            font-size: 40px;
+            font-weight: bold;
+            position: absolute;
+            top: 50px;
+            left: 150px;
+        }
+        .par2 label{
+            position: absolute;
+            top: 200px;
+            font-size: 30px;
+            left: 20px;
+
+        }
+        .par2 input{
+            font-size: 20px;
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgba(100,100,150,.5);
+            color: white;
+        }   
+        .par2 input::placeholder{
+            color: antiquewhite;
+        }
+        .par3 label{
+            position: absolute;
+            top: 280px;
+            font-size: 30px;
+            left: 20px;
+        }
+        .par3 input{
+            font-size: 20px;
+            position: absolute;
+            top: 280px;
+            left: 100px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgba(100,100,150,.5);
+            color: white;
+        }
+        .par3 input::placeholder{
+            color: antiquewhite;
+        }
+        .par4 input{
+            position: absolute;
+            top: 380px;
+            left: 120px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: rgba(100,100,150,.5);
+            color: antiquewhite;
+            cursor: pointer;
+        }
+        .par4 :hover{
+            background-color: red;
+            transition-duration: 1s;
+        }
+        .par5 input{
+            position: absolute;
+            top: 380px;
+            left: 240px;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+            background-color: rgba(100,100,150,.5);
+            color: antiquewhite;
+            cursor: pointer;
+        }
+        .par5 :hover{
+            background-color: red;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p class="par1">Login</p>
+        <form>
+            <p class="par2">
+                <label for="gamil"><i class="fa-mosaic fa-solid fa-user">:</i></label>
+            <input type="gmail" placeholder ="Gmail">
+            </p>
+            <p class="par3">
+                <label for="password"><i class="fa-notdog-duo fa-solid fa-key">:</i></label>
+            <input type="password" placeholder="Password">
+            </p>
+            <p class="par4">
+                <input type="submit">
+            </p>
+            <p class="par5">    
+                <input type="reset">
+            </p>
+
+            
+        </form>
+    </div>
+</body>
+</html>
